@@ -39,7 +39,7 @@ I work across different layers of software engineering:
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stacks
 
 ### Languages
 
