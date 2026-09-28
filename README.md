@@ -1,426 +1,254 @@
-# 👋 Hey, I'm JP CodeSmith
+<!-- ═══════════════════════ HERO ═══════════════════════ -->
+<div align="center">
 
-### Software Engineer • Full-Stack Developer • Mobile Developer • AI & DevOps Enthusiast
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:0d1117,50:00c2a8,100:00e5ff&text=JP%20CodeSmith&fontColor=ffffff&fontSize=64&fontAlignY=38&desc=Software%20Engineer%20%E2%80%A2%20DevSecOps%20in%20the%20making&descSize=20&descAlignY=58&animation=fadeIn" alt="JP CodeSmith banner" />
 
-I build **real-world software products** across the stack — from interfaces and mobile applications to backend systems, databases, infrastructure, and AI-powered developer tools.
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=900&color=00E5FF&center=true&vCenter=true&width=760&height=50&lines=Shift+security+left.+Ship+with+confidence.;Secure+CI%2FCD+%E2%80%A2+Containers+%E2%80%A2+Infrastructure+as+Code;Full-Stack+%E2%80%A2+Mobile+%E2%80%A2+AI-Powered+Developer+Tools;Building+CodeSmith+Agent+from+the+terminal" alt="Typing animation" />
+</a>
 
-I enjoy going beyond making an application work. I like understanding **how the whole system fits together**:
+<br/>
 
-```text
-Interface
-   ↓
-Application
-   ↓
-API
-   ↓
-Database
-   ↓
-Infrastructure
-   ↓
-Deployment
-   ↓
-Production
+![Profile Views](https://komarev.com/ghpvc/?username=JP-CODESMITH&label=Profile+Views&color=00c2a8&style=for-the-badge)
+![Followers](https://img.shields.io/github/followers/JP-CODESMITH?label=Followers&style=for-the-badge&logo=github&color=0d1117&labelColor=00c2a8)
+![Stars](https://img.shields.io/github/stars/JP-CODESMITH?label=Stars&style=for-the-badge&logo=github&color=0d1117&labelColor=00c2a8)
+![Focus](https://img.shields.io/badge/Focus-DevSecOps-00e5ff?style=for-the-badge&logo=hackthebox&logoColor=black)
+![Env](https://img.shields.io/badge/Runs_on-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+</div>
+
+---
+
+## 🛡️ About Me
+
+```bash
+jp@codesmith:~$ whoami
+JP CodeSmith — software engineer moving from "it works" to "it's secure, observable and shippable"
+
+jp@codesmith:~$ cat mission.txt
+Build real-world products. Understand the whole system underneath them.
+Bake security into every stage of the pipeline, not bolt it on at the end.
+
+jp@codesmith:~$ cat philosophy.txt
+Don't just make it work. Understand why it works. Then make it safe.
 ```
 
-My goal is to keep growing from a developer who builds applications into an engineer who understands the **systems behind them**.
+I build across the stack: interfaces, mobile apps, APIs, databases, infrastructure and AI-powered tools. My direction is **DevSecOps**: automating delivery while treating security, reliability and visibility as first-class features.
 
 ---
 
-## 🧭 What I Do
+## 🔄 My DevSecOps Pipeline
 
-```text
-┌─────────────────────────────────────────────────────────────┐
-│                         JP CODESMITH                        │
-├─────────────────────────────────────────────────────────────┤
-│  💻 Software Engineering                                   │
-│  🌐 Full-Stack Web Development                             │
-│  📱 Mobile Development                                     │
-│  ⚙️ Backend & API Engineering                              │
-│  🤖 AI-Powered Applications                                 │
-│  🧠 Developer Tools & Agentic Systems                       │
-│  🐧 Linux & Systems                                        │
-│  ☁️ DevOps & Infrastructure                                 │
-│  🗄️ Databases & Data Architecture                          │
-│  🔐 Security & Application Architecture                     │
-└─────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart LR
+    A[💡 Plan<br/>Threat Modeling] --> B[⌨️ Code<br/>Pre-commit Hooks]
+    B --> C[🔍 Build<br/>SAST • Secrets Scan]
+    C --> D[🧪 Test<br/>DAST • Dependency Audit]
+    D --> E[📦 Package<br/>Image Scan • SBOM • Sign]
+    E --> F[🚀 Deploy<br/>IaC Scan • Policy Gates]
+    F --> G[📡 Operate<br/>Monitor • Alert]
+    G --> H[🔁 Feedback<br/>Improve]
+    H --> A
+
+    style A fill:#0d1117,stroke:#00e5ff,color:#fff
+    style B fill:#0d1117,stroke:#00e5ff,color:#fff
+    style C fill:#0d1117,stroke:#00c2a8,color:#fff
+    style D fill:#0d1117,stroke:#00c2a8,color:#fff
+    style E fill:#0d1117,stroke:#00e5ff,color:#fff
+    style F fill:#0d1117,stroke:#00e5ff,color:#fff
+    style G fill:#0d1117,stroke:#00c2a8,color:#fff
+    style H fill:#0d1117,stroke:#00c2a8,color:#fff
 ```
 
-I work across multiple layers of software development:
-
-- 🌐 **Web** — modern, responsive and production-oriented interfaces
-- 📱 **Mobile** — Flutter and React Native / Expo
-- ⚙️ **Backend** — REST APIs, authentication, business logic and integrations
-- 🗄️ **Databases** — PostgreSQL, Prisma and application data architecture
-- 🔐 **Security** — authentication, authorization and secure application flows
-- ☁️ **Infrastructure** — Docker, deployment, cloud and DevOps workflows
-- 🐧 **Linux** — terminal-based development, systems and tooling
-- 🤖 **AI Engineering** — AI APIs, AI-powered products and agentic workflows
-- 🧰 **Developer Tools** — building software that helps developers build software
+| Stage | What I care about | Tools I'm working with / toward |
+|:--|:--|:--|
+| 🧭 **Plan** | Threat modeling, least privilege, secure-by-design | STRIDE, OWASP Top 10 |
+| ⌨️ **Code** | Catch mistakes before they leave my machine | pre-commit, Gitleaks |
+| 🔍 **Build** | Static analysis, secret detection, dependency checks | Semgrep, Trivy, npm/pip audit |
+| 🧪 **Test** | Automated tests and dynamic scanning | Vitest/Jest, pytest, OWASP ZAP |
+| 📦 **Package** | Minimal images, SBOMs, signed artifacts | Docker, Syft, Cosign |
+| 🚀 **Deploy** | Reproducible infra, policy as code | Terraform, Checkov, Kubernetes, GitHub Actions |
+| 📡 **Operate** | Metrics, logs, alerts, incident readiness | Prometheus, Grafana |
 
 ---
 
-# 🛠️ Tech Stack
-
-## Languages
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-## Frontend
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![TanStack](https://img.shields.io/badge/TanStack-FF4154?style=for-the-badge&logo=tanstack&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-
-## Mobile
-
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
-
-## Backend
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-
-## Database & Backend Services
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-181818?style=for-the-badge&logo=supabase&logoColor=3ECF8E)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Appwrite](https://img.shields.io/badge/Appwrite-F02E65?style=for-the-badge&logo=appwrite&logoColor=white)
-
-## DevOps, Systems & Infrastructure
-
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-
----
-
-# 🚀 Featured Projects
-
-## ⚒️ CodeSmith Agent
-
-### AI Developer Command Center
-
-My current focus is **CodeSmith Agent**, a terminal-first AI developer environment designed to help developers understand, explore and work with software projects while keeping the developer in control.
-
-The vision goes beyond:
-
-> "AI that writes code."
-
-CodeSmith is being designed around:
-
-- 🖥️ Terminal-first developer experience
-- 🗂️ Persistent development sessions
-- 🔎 Project-aware context
-- 💬 AI-assisted conversations
-- 🧰 Tool execution
-- 👀 Agent activity and observability
-- 🔐 Permission and approval workflows
-- 🎨 Global and session-specific themes
-- 📊 Token and context visibility
-- ⌨️ Keyboard-first workflows
-- 🧠 Agent-style software development
-
-**Stack:** Bun • TypeScript • OpenTUI • PostgreSQL • Prisma • AI APIs
-
----
-
-## 🤖 VisionForge
-
-### AI-Powered API Testing & Validation Platform
-
-**VisionForge** is a completed AI-powered platform focused on API testing and validation.
-
-It was built around workflows for:
-
-- AI-assisted test generation
-- API validation
-- Regression detection
-- Automated testing
-- Monitoring
-- Structured results
-- Test reporting
-
-**Stack:** React • TypeScript • Next.js • AI APIs
-
-🔗 **Live Demo:** `Add link`
-🔗 **GitHub:** `Add link`
-
----
-
-## 🌱 FarmRoute
-
-### Digital Agricultural Marketplace & Ecosystem
-
-FarmRoute is a broader agricultural technology platform connecting **farmers, buyers and logistics providers**.
-
-The product is being designed around:
-
-- 🌾 Agricultural marketplace
-- 🐟 Fisheries and aquaculture
-- 🚚 Interstate logistics
-- 💳 Secure payment workflows
-- ⭐ Ratings and buyer feedback
-- 👨‍🌾 Farmer consultation
-- 📊 Farm record keeping
-- 🤖 AI-assisted farming
-- 🌦️ Weather and rainfall intelligence
-
-**Stack:** Flutter • Backend APIs • PostgreSQL • AI Services • Cloud Infrastructure
-
----
-
-## 🍽️ DeDiaspora
-
-### Digital Restaurant Platform
-
-DeDiaspora is a restaurant platform designed to bring the dining experience into one digital ecosystem.
-
-The platform includes:
-
-- 🍽️ Menu management
-- 📅 Reservations
-- 🪑 Booking zones
-- 📖 Recipes
-- 🖼️ Gallery
-- ✍️ Blog
-- 📊 Admin analytics
-- 🌍 International phone support
-- 💱 Currency handling
-- ⚠️ Dietary and allergy information
-
-**Stack:** TanStack Start • React • TypeScript • PostgreSQL • Prisma
-
----
-
-## 🛍️ LigowinShopper
-
-### E-Commerce Platform
-
-Built and deployed a responsive e-commerce platform focused on product discovery and shopping workflows.
-
-The project includes:
-
-- Product browsing
-- Product detail experiences
-- Responsive shopping interfaces
-- Product media management
-- Modern e-commerce UI
-
-**Stack:** Next.js • Tailwind CSS • Supabase
-
----
-
-# 🧠 What I'm Learning
-
-I'm currently moving deeper into the systems side of software engineering.
-
-```text
-Software Development
-        ↓
-Software Architecture
-        ↓
-Backend Engineering
-        ↓
-Linux & Systems
-        ↓
-DevOps
-        ↓
-Cloud Infrastructure
-        ↓
-Distributed Systems
-        ↓
-Production Engineering
-```
-
-I'm especially interested in understanding not only how software is **built**, but how it is:
-
-```text
-Designed
-   ↓
-Built
-   ↓
-Tested
-   ↓
-Deployed
-   ↓
-Monitored
-   ↓
-Maintained
-```
-
----
-
-# 🐧 Why Linux?
-
-Linux is my primary development environment.
-
-I spend a lot of time working directly from the terminal, configuring development environments, experimenting with infrastructure, and understanding the systems underneath the applications I build.
-
-My typical environment revolves around:
-
-```text
-Linux
-├── Git / GitHub
-├── Bun / Node.js
-├── Python
-├── PostgreSQL
-├── Docker
-├── Infrastructure tooling
-├── Terminal workflows
-└── Development automation
-```
-
-I believe understanding the environment your software runs in makes you a better developer.
-
----
-
-# 🤖 AI + Software Engineering
-
-I'm interested in AI not only as a consumer of AI APIs, but as an engineering problem.
-
-I'm exploring:
-
-- AI-powered applications
-- Multimodal systems
-- AI-assisted development
-- Agentic workflows
-- Developer tooling
-- AI + software architecture
-
-I use AI to **accelerate development**, but I still want to understand the architecture, implementation and decisions behind the software.
-
----
-
-# 🧩 How I Like to Build
-
-My preferred workflow is simple:
-
-```text
-IDEA
- ↓
-UNDERSTAND
- ↓
-DESIGN
- ↓
-BUILD
- ↓
-TEST
- ↓
-USE
- ↓
-REFINE
- ↓
-SHIP
-```
-
-I don't believe software should be built just to say:
-
-> "It works."
-
-I want to understand **why it works**, how it behaves under real conditions, and how it can be improved.
-
----
-
-# 🎯 Engineering Philosophy
-
-> **Don't just make it work. Understand why it works.**
-
-Good software engineering is bigger than code.
-
-It is:
-
-```text
-Architecture
-     ↓
-Code
-     ↓
-Data
-     ↓
-Security
-     ↓
-Infrastructure
-     ↓
-Deployment
-     ↓
-Users
-```
-
-The deeper I go, the more I realize that software engineering is about understanding the **relationships between these layers**.
-
----
-
-# 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=JP-CODESMITH&show_icons=true&theme=transparent&hide_border=true" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JP-CODESMITH&layout=compact&theme=transparent&hide_border=true" height="165" />
+## 🧰 Tech Arsenal
+
+### 🔐 DevSecOps · Infrastructure · Systems
+<p>
+  <img src="https://skillicons.dev/icons?i=linux,bash,docker,kubernetes,terraform,ansible,githubactions,git,github,nginx,prometheus,grafana&perline=12" alt="DevSecOps stack" />
+</p>
+
+### ⚙️ Backend · Data
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,fastapi,python,postgres,prisma,supabase,redis,appwrite&perline=10" alt="Backend stack" />
+</p>
+
+### 🌐 Frontend · 📱 Mobile
+<p>
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,vite,tailwind,html,css,flutter,dart,expo&perline=11" alt="Frontend and mobile stack" />
 </p>
 
 ---
 
-# 📈 Contribution Activity
+## 📊 GitHub Analytics
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=JP-CODESMITH&theme=github-compact&hide_border=true" />
-</p>
+<div align="center">
+
+### 🔥 Daily Push Streak
+
+<img src="https://streak-stats.demolab.com/?user=JP-CODESMITH&theme=tokyonight&hide_border=true&border_radius=12&ring=00E5FF&fire=00C2A8&currStreakLabel=00E5FF&background=0D111700" alt="GitHub streak" width="85%" />
+
+<br/><br/>
+
+<img height="185" src="https://github-readme-stats.vercel.app/api?username=JP-CODESMITH&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&count_private=true&include_all_commits=true&title_color=00E5FF&icon_color=00C2A8&bg_color=0D111700" alt="GitHub stats" />
+<img height="185" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JP-CODESMITH&layout=donut&theme=tokyonight&hide_border=true&border_radius=12&title_color=00E5FF&bg_color=0D111700" alt="Top languages" />
+
+### 🧬 Language Breakdown (compact)
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JP-CODESMITH&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&border_radius=12&title_color=00E5FF&bg_color=0D111700" alt="Language percentages" width="55%" />
+
+### 📈 Contribution Graph
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=JP-CODESMITH&theme=tokyo-night&hide_border=true&area=true&color=00E5FF&line=00C2A8&point=FFFFFF&bg_color=0D1117" alt="Contribution activity graph" width="100%" />
+
+### 🏆 Trophies
+
+<img src="https://github-profile-trophy.vercel.app/?username=JP-CODESMITH&theme=tokyonight&no-frame=true&no-bg=true&margin-w=12&row=1&column=7" alt="GitHub trophies" />
+
+</div>
 
 ---
 
-# 🤝 Let's Build
+## 🐍 Contribution Snake
 
-I'm interested in working on:
-
-- Open-source software
-- Full-stack applications
-- Mobile products
-- Backend systems
-- Developer tools
-- AI-powered products
-- DevOps and infrastructure
-- Real-world technology solutions
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JP-CODESMITH/JP-CODESMITH/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/JP-CODESMITH/JP-CODESMITH/output/github-snake.svg" />
+    <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/JP-CODESMITH/JP-CODESMITH/output/github-snake-dark.svg" />
+  </picture>
+</div>
 
 ---
 
-# ⚡ Currently
+## 🚀 Featured Projects
 
-```text
-Building        → CodeSmith Agent
-Learning        → DevOps & Systems
-Exploring       → AI Engineering
-Improving       → Software Architecture
-Shipping        → Real-world Products
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### ⚒️ CodeSmith Agent
+**AI developer command center, terminal-first**
+
+Helps developers understand, explore and work with projects while staying in control: persistent sessions, project-aware context, tool execution, **permission and approval workflows**, agent observability, and token/context visibility.
+
+![Bun](https://img.shields.io/badge/Bun-000?style=flat-square&logo=bun&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
+### 🤖 VisionForge
+**AI-powered API testing and validation platform**
+
+AI-assisted test generation, API validation, regression detection, monitoring and structured reporting. This is security-minded quality engineering in practice.
+
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+🔗 [Live Demo](#) · [GitHub](#)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🌱 FarmRoute
+**Digital agricultural marketplace and ecosystem**
+
+Connects farmers, buyers and logistics providers: marketplace, fisheries, interstate logistics, secure payment workflows, ratings, farm records and AI-assisted farming.
+
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![Cloud](https://img.shields.io/badge/Cloud-Infra-00c2a8?style=flat-square)
+
+</td>
+<td width="50%" valign="top">
+
+### 🍽️ DeDiaspora
+**Digital restaurant platform**
+
+Menus, reservations, booking zones, recipes, gallery, blog, admin analytics, international phone and currency handling, plus dietary and allergy information.
+
+![TanStack](https://img.shields.io/badge/TanStack-FF4154?style=flat-square&logo=tanstack&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### 🛍️ LigowinShopper
+**Deployed e-commerce platform**: product discovery, detail experiences, responsive shopping UI and media management. ![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=next.js&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-181818?style=flat-square&logo=supabase&logoColor=3ECF8E)
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🎯 Currently Levelling Up
+
+```yaml
+building:    CodeSmith Agent
+learning:
+  - Secure CI/CD pipelines (GitHub Actions)
+  - Container and image hardening (Docker, Trivy)
+  - Infrastructure as Code and policy as code (Terraform, Checkov)
+  - Kubernetes fundamentals and workload security
+  - Observability (Prometheus, Grafana)
+exploring:   AI engineering, agentic workflows, secure AI tooling
+improving:   Software architecture and threat modeling
+shipping:    Real-world products
 ```
 
-### Keep Building. Keep Learning. Keep Shipping.
+### 🗺️ Roadmap
 
 ```text
-              BUILD
-                ↓
-              TEST
-                ↓
-           UNDERSTAND
-                ↓
-             IMPROVE
-                ↓
-              SHIP
-                ↓
-             REPEAT
+Software Development ─► Backend Engineering ─► Linux & Systems
+        │                                            │
+        ▼                                            ▼
+   DevOps & CI/CD  ─►  Cloud Infrastructure  ─►  DevSecOps
+                                                     │
+                                                     ▼
+                                     Production & Security Engineering
 ```
 
-**JP CodeSmith**
+---
+
+## 🤝 Let's Build
+
+Open to collaborating on **open-source**, **DevSecOps tooling**, **full-stack and mobile products**, **backend systems**, **AI-powered developer tools** and real-world technology solutions.
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-JP--CODESMITH-181717?style=for-the-badge&logo=github)](https://github.com/JP-CODESMITH)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](#)
+[![Email](https://img.shields.io/badge/Email-Say_Hello-00c2a8?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@email.com)
+
+<br/>
+
+```text
+   PLAN → CODE → BUILD → TEST → SECURE → DEPLOY → MONITOR → REPEAT
+```
+
+**Keep Building. Keep Securing. Keep Shipping.** 🛡️
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:00e5ff,50:00c2a8,100:0d1117&section=footer" alt="footer" />
+
+</div>
