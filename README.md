@@ -233,7 +233,7 @@ Software Development ─► Backend Engineering ─► Linux & Systems
 
 ## 🤝 Let's Build
 
-Open to collaborating on **open-source**, **DevSecOps tooling**, **full-stack and mobile products**, **backend systems**, **AI-powered developer tools** and real-world technology solutions.
+Open to collaborating on all **open-source**, **DevSecOps tooling**, **full-stack and mobile products**, **backend systems**, **AI-powered developer tools** and real-world technology solutions.
 
 <div align="center">
 
